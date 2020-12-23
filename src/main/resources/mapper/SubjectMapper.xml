@@ -86,6 +86,9 @@
     from subject
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="findAll" resultMap="BaseResultMap">
+    select * from subject
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from subject
     where id = #{id,jdbcType=INTEGER}

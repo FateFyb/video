@@ -9,7 +9,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @ServletComponentScan  //Servlet可以直接通过@WebServlet注解自动注册
 //Filter可以直接通过@WebFilter注解自动注册
 //Listener可以直接通过@WebListener 注解自动注册
-@MapperScan("com.qf.dao")
+@MapperScan("com.qf.mapper")
 public class VideoApplication {
 
     public static void main(String[] args) {
